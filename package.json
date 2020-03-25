@@ -1,5 +1,5 @@
 {
-  "name": "Hangang-Temperature-API",
+  "name": "Twitter-Follower-Info-Server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,14 +9,20 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.23",
     "express": "^4.17.1",
+    "helmet": "^3.22.0",
     "iconv-lite": "^0.5.1",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.16",
     "@types/express": "^4.17.2",
+    "@types/helmet": "^0.0.45",
+    "@types/morgan": "^1.9.0",
     "@types/node": "^13.7.1",
     "@types/request-promise": "^4.1.45",
     "nodemon": "^2.0.2",
